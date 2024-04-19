@@ -1,0 +1,33 @@
+{
+  "name": "learningappfront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "format": "prettier --write \"/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.24.1",
+    "@babel/plugin-transform-object-assign": "^7.24.1",
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "react-confetti": "^6.1.0",
+    "react-router-dom": "^6.22.3",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5"
+  }
+}
